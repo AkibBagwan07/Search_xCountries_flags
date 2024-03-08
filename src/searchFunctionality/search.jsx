@@ -1,4 +1,3 @@
-import "./styles.css";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import styles from "./search.module.css"
