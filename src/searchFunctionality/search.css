@@ -1,4 +1,4 @@
-.App {
+/* .App {
     font-family: sans-serif;
     text-align: center;
   }
@@ -34,4 +34,35 @@
     width: 100px;
     height: 60px;
   }
+   */
+   .App {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
   
+  .inp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5%;
+  }
+  
+  .inp input {
+    font-size: larger;
+    font-weight: bolder;
+    border: 5px solid;
+  }
+  
+  .countryCard {
+    padding: 2%;
+    margin: 2%;
+    border: 3px solid;
+  }
+  
+  img {
+    width: 15vw;
+    height: 20vh;
+  }

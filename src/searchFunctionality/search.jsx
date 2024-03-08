@@ -68,7 +68,7 @@
 //     </div>
 //   );
 // }
-import "./style.css";
+import "./search.css"
 import { useEffect, useState } from "react";
 
 function App() {
