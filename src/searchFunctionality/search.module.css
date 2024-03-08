@@ -1,0 +1,37 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .flagsParent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .countryCard {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    width: 150px;
+  }
+  
+  .searchParent {
+    background-color: grey;
+  }
+  
+  .search {
+    width: 50vw;
+    height: 35px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+  }
+  
+  .flagImg {
+    margin-top: 8px;
+    width: 100px;
+    height: 60px;
+  }
+  
