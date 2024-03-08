@@ -98,7 +98,7 @@ function App() {
       country.name.common.toLowerCase().includes(search.toLowerCase())
     );
     setFiltered(data);
-  }, [search]);
+  }, [countries, search]);
 
   console.log(countries);
   return (
