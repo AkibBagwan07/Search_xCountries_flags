@@ -56,10 +56,10 @@ export default function Search() {
           placeholder="Search for Countries..."
         />
       </div>
-      <div className={styles.flagsParent}>
+      <div className={styles.countryCard}>
         {flags.length > 0 &&
           flags.map((flag) => (
-            <div className={styles.countryCard} key={flag.cca3}>
+            <div className={styles.flagChild} key={flag.cca3}>
               <img className={styles.flagImg} src={flag.flags.png} alt="" />
               <p>{flag.name.common}</p>
             </div>

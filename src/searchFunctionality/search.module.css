@@ -3,14 +3,14 @@
     text-align: center;
   }
   
-  .flagsParent {
+  .countryCard {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
   
-  .countryCard {
+  .flagChild {
     border: 1px solid black;
     border-radius: 5px;
     margin: 15px;
