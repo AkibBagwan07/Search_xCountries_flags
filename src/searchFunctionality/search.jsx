@@ -115,16 +115,22 @@ export default function Search() {
           ? countries.map((country) => {
               return (
                 <div className="countryCard">
+                  {country.name.common!==undefined && country.flags.png!==undefined &&
+                  <div>
                   <img src={country.flags.png} alt={country.flag}></img>
                   <h2>{country.name.common}</h2>
+                  </div>}
                 </div>
               );
             })
           : filtered.map((country) => {
               return (
                 <div className="countryCard">
+                  {country.name.common!==undefined && country.flags.png!==undefined &&
+                  <div>
                   <img src={country.flags.png} alt={country.flag}></img>
                   <h2>{country.name.common}</h2>
+                  </div>}
                 </div>
               );
             })}
