@@ -124,7 +124,7 @@ export default function Search() {
               return (
                 <div className="countryCard">
                   <img src={country.flags.png} alt={country.flag}></img>
-                  <h3>{country.name.common}</h3>
+                  <h2>{country.name.common}</h2>
                 </div>
               );
             })}
