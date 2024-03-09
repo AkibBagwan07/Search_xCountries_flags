@@ -98,7 +98,7 @@ export default function Search() {
       country.name.common.toLowerCase().includes(search.toLowerCase())
     );
     setFiltered(data);
-  }, [countries, search]);
+  }, [,search]);
 
   console.log(countries);
   return (
@@ -114,7 +114,7 @@ export default function Search() {
         {search === ""
           ? countries.map((country) => {
               return (
-                <div className="countryCard" key={country.cca3}>
+                <div className="countryCard">
                   <img src={country.flags.png} alt={country.flag}></img>
                   <h3>{country.name.common}</h3>
                 </div>
@@ -122,7 +122,7 @@ export default function Search() {
             })
           : filtered.map((country) => {
               return (
-                <div className="countryCard" key={country.cca3}>
+                <div className="countryCard">
                   <img src={country.flags.png} alt={country.flag}></img>
                   <h3>{country.name.common}</h3>
                 </div>
@@ -132,5 +132,3 @@ export default function Search() {
     </div>
   );
 }
-
-// export default Search;
