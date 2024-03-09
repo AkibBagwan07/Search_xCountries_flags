@@ -71,7 +71,7 @@
 import "./search.css"
 import { useEffect, useState } from "react";
 
-function App() {
+export default function Search() {
   const [countries, setCountries] = useState([]);
   const [filtered, setFiltered] = useState([]);
   const [search, setSearch] = useState("");
@@ -133,4 +133,4 @@ function App() {
   );
 }
 
-export default App;
+// export default Search;

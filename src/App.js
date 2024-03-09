@@ -1,4 +1,4 @@
-import Search from './searchFunctionality/search';
+import Search from "./searchFunctionality/search";
 
 function App() {
   return (
